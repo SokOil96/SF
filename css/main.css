@@ -96,7 +96,7 @@ span a {
   color: #fff;
   background:
       linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
-      url(../background-home.png);
+      url(../images/home.img/background-home.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -120,6 +120,10 @@ span a {
   line-height: 36px;
   margin-bottom: 41px;
   max-width: 504px;
+}
+
+h1 a {
+  color: #E3B873;
 }
 
 .submit-button {
@@ -195,7 +199,6 @@ span a {
   font-family: 'Yeseva One';
   font-size: 27px;
   line-height: 37px;
-  letter-spacing: -0.07em;
   color: #E3B873;
   margin-bottom: 34px;
 }
@@ -359,7 +362,7 @@ input::placeholder {
 
 .team-container img {
   vertical-align: middle;
-  margin-bottom: 31px;
+  margin-bottom: 50px;
 }
 
 .team-content {
@@ -450,7 +453,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: url(/team-background.png);
+  background: url(../images/team.img/team-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 703px;
@@ -473,10 +476,12 @@ input::placeholder {
   display: flex;
   justify-content: flex-end;
   margin-right: 33px;
+  align-items: center;
 }
 
 .description-bottom p {
   color:#E3B873;
+  align-items: center;
 }
 
 
@@ -485,7 +490,7 @@ input::placeholder {
 .section-design {
   background:
         linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .9)),
-        url(/bc.png);
+        url(../images/design.img/bc.png);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 110px;
@@ -634,7 +639,7 @@ input::placeholder {
 /* Section-contacts*/
 
 .section-contacts {
-  background-image: url(../gb.png),
+  background-image: url(../images/contact.img/gb.png),
       linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
   background-repeat: no-repeat;
   background-size: cover;

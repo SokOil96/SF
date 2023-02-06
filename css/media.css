@@ -1,0 +1,203 @@
+@media (max-width: 768px) {
+  .header-menu, .header button {
+    display: none;
+  }
+
+  span {
+    display: block;
+    padding: 0;
+    margin: 0 18px;
+  }
+
+  span a {
+    color: #fff;
+    border-bottom: none;
+  }
+
+  .section-home {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 85px 0 0;
+  }
+
+  .home-container {
+    margin: 0 18px;
+  }
+
+  .home-container h1 {
+    font-size: 23px;
+    margin-bottom: 16px;
+  }
+
+  .home-container p {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 32px;
+  }
+
+  p br {
+    display: none;
+  }
+
+  .submit-button {
+    width: 90vw;
+  }
+
+  .submit-button.orange {
+    margin-bottom: 26px;
+    margin-right: 0;
+  }
+
+  .submit-button.oppacity {
+    margin-bottom: 61px;
+  }
+
+  .section-projects {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+  }
+
+  .projects-container {
+    padding-top: 0;
+  }
+
+  .projects-nav {
+    display: none;
+  }
+
+  .content-projects {
+    display: block;
+  }
+
+  .description-projects {
+    margin-bottom: 20px;
+  }
+
+  .description-projects h2 {
+    margin: 36px auto 22px;
+  }
+
+  .section-measurement {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 58px;
+  }
+
+  .black-background, .white-background, .change-background {
+    background-color: black;
+    padding: 0 18px;
+  }
+
+  .video {
+    margin-bottom: 200px;
+  }
+
+  .white-background p {
+    margin: 0 auto 30px;
+    width: 90vw;
+    font-size: 11px;
+    line-height: 19px;
+    color:#fff;
+  }
+
+  .form {
+    display: block;
+    text-align: left;
+  }
+
+  .name, .phone {
+    margin-bottom: 63px;
+  }
+
+  input#phone, input#name, input#questions {
+    width: 90vw;
+    color:#fff;
+    border-bottom: 1px solid #fff;
+  }
+
+  input::placeholder {
+    color:#fff;
+  }
+
+  .agree-data, .agree {
+    text-align: left;
+    
+  }
+
+  .checkbox {
+    color: white;
+  }
+  
+  #checkbox {
+    margin-right: 4px;
+  }
+
+  .btn {
+    width: 90vw;
+  }
+
+  .section-team {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .team-container {
+    width: 90vw;
+    margin: 0 18px;
+  }
+
+  .section-team h3 {
+    margin-top: 58px;
+  }
+
+  .section-team img {
+    margin-bottom: 40px;
+  }
+
+  .team-content {
+    display: block;
+  }
+
+  .content-card {
+   margin-bottom: 270px;
+    
+  }
+
+  .team-description, .description-bottom, .section-design ul, .reviews-card, .reviews-container h3,.reviews-container p, .reviews-container img, .footer {
+    display: none;
+  }
+
+  .design-container {
+    background-color: #fff;
+    text-align: center;
+  }
+
+  .design-container h3 {
+    padding: 0;
+  }
+
+  .contacts-container, .reviews-container, .answer-form {
+    background-color: #000;
+  }
+
+  .contacts-container p {
+    padding: 0;
+    margin: 0 18px 0;
+
+  }
+
+  .icons {
+    margin-top: 30px;
+  }
+ }
